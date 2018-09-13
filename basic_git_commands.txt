@@ -14,8 +14,14 @@ Assume: D:\GitProjects\learn-basic-git
 	+ git rm --cached basic_git.txt: remove basic_git.txt from git staging
 
 - git add . : add all files that haven't added
-
 - git commit -m "Learning git basic"
+
+To remote project to github (could be any gitserver such as bitbucket)
+- git remote add origin https://github.com/mensopheak/learning-basic-git-commands.git : add a remote name origin
+- git remote : show remote name
+- git remote -v: show the remote of origin's urls
+
+- git push origin master
 
 
 
