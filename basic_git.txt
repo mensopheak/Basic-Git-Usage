@@ -9,11 +9,13 @@ Assume: D:\GitProjects\learn-basic-git
 - git init: initialize empty Git repository
 	+ .git
 
-- git add basic_git.txt: add basic_git.txt to git staging
+- git add basic_git.txt: add basic_git.txt to git staging [single add]
 	+ git add -a: add alls file in any directory to git repository
 	+ git rm --cached basic_git.txt: remove basic_git.txt from git staging
 
+- git add . : add all files that haven't added
 
+- git commit -m "Learning git basic"
 
 
 
