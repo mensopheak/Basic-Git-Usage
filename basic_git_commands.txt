@@ -21,7 +21,8 @@ To remote project to github (could be any gitserver such as bitbucket)
 - git remote : show remote name
 - git remote -v: show the remote of origin's urls
 
-- git push origin master
+- git push origin master: push request to repository branch 'master'
+- git pull origin master: pull request to my local repository branch 'master'
 
 
 
