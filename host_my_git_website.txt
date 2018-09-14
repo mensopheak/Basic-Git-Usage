@@ -1,1 +1,6 @@
 - create a new repository MyGitWebsite
+- create a new branch [gh-pages]
+- settings => branch => default branch => change it to [gh-pages] => update
+- [optional: code => branch => delete master branch from repo]
+- create a new file [index.html]
+- settings => github pages (we will see our published URL)
