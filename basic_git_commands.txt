@@ -33,5 +33,5 @@ To remote project to github (could be any gitserver such as bitbucket)
 - git push origin master: push request to repository branch 'master'
 - git pull origin master: pull request to my local repository branch 'master'
 
-
+- git checkout -b [branch_name]: switch branch in repo
 
