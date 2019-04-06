@@ -102,7 +102,7 @@ git push origin master
 
 
 
-## Pull back to your machine, if you already have your remote repository
+## Pull Back To Your Machine, If You Already Have Your Remote Repository
 
 Use **git pull origin master** to pull request to your local repository branch 'master'
 
