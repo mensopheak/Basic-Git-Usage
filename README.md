@@ -1,4 +1,4 @@
-# Git-Commands
+# Basic Git Usage
 
 ## Global Configuration: 
 
@@ -59,13 +59,60 @@ git rm --cached file1.txt
 git commit -m "Initial Commit"
 ```
 
+### Summary
+
+```git
+git init
+git status
+git add .
+git commit -m "Initial Commit"
+```
+
 
 
 ## Add Remote To Your Git Repository To Github or Any Git Server
 
-- git remote add origin https://github.com/mensopheak/learning-basic-git-commands.git : add a remote name origin
-- git remote : show remote name
-- git remote -v: show the remote of origin's urls
-- git push origin master: push request to repository branch 'master'
-- git pull origin master: pull request to my local repository branch 'master'
-- git checkout -b [branch_name]: switch branch in repo
+- Go to [Github](https://github.com/join) and sign up your **git account**
+- Create a new repository with any name
+- Find **remote url**
+
+- Use **git remote add origin your_github_remote_url**, to remote to your repository in Github with **origin** name(could be any name)
+
+```git
+git remote add origin your_github_remote_url
+```
+
+- Use **git remote** to show remote name
+
+```git
+git remote
+```
+
+- Use **git remote -v** to show the remote of origin's urls
+
+```git
+git remote -v
+```
+
+- Use **git push origin master** to push request to repository branch 'master' to your remote git server
+
+```git
+git push origin master
+```
+
+
+
+## Pull back to your machine, if you already have your remote repository
+
+- Use **git pull origin master** to pull request to your local repository branch 'master'
+
+```git
+git pull origin master
+```
+
+- Use **git checkout -b [branch_name]** switch branch in repository
+
+```git
+git checkout -b new_branch
+```
+
