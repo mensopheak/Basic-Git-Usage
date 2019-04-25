@@ -116,3 +116,10 @@ Use **git checkout -b [branch_name]** switch branch in repository
 git checkout -b new_branch
 ```
 
+
+## use git reset –hard <commit-hash> to set the current branch HEAD to the commit you want
+```git
+git reset --hard cedc856
+git push --force origin master
+```
+
